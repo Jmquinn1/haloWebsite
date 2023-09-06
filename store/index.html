@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store</title>
+</head>
+<ul>
+    <li><a href="../index.html">Home</a></li>
+</ul>
+<body>
+<img src="../imagies/mac.jpeg" alt="Picture of product" title="Picutre of halo pro">
+<h1>Halo Pro</h1>
+<p>Halo Pro</p>
+<h2>Data on product</h2>
+<table>
+    <thead>
+    <tr>
+        <th></th>
+        <th>Competitor</th>
+        <th>Difference</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Dewalt</th>
+        <td>$400</td>
+        <td>$120</td>
+    </tr>
+    <tr>
+        <th>Blue</th>
+        <td>$400</td>
+        <td>$120</td>
+    </tr>
+    <tr>
+        <th>Millwalki</th>
+        <td>$400</td>
+        <td>$120</td>
+    </tr>
+    </tbody>
+</table>
+<!-- This is for product type-->
+<form action="test" method="post">
+    <p>Please select which product you would like to buy:
+        <br/>
+        <input type="radio" name="type" value="halo"/> Halo
+        <input type="radio" name="type" value="halo pro"/> Halo Pro
+        <input type="radio" name="type" value="halo X"/> Halo X
+    </p>
+</form>
+<!-- This is for # of a particular product-->
+<form action="test" method="post">
+    <p>How many of the selected product would you like?</p>
+    <select name="nunber">
+        <option value="null" selected="selected">...</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+    </select>
+</form>
+<!-- This is for product upgrades-->
+<form action="test" method="post">
+    <p>
+        Please select upgrades you want:
+        <br/>
+        <input type="checkbox" name="upgrades" value="longerCourd"/> Longer Courd
+        <input type="checkbox" name="upgrades" value="cooler"/> Cooler
+        <input type="checkbox" name="upgrades" value="outlet"/>Outlet
+    </p>
+</form>
+<!--This is where we have the user type out a review -->
+<form action="test" method="post">
+    <p>
+        Eneter your review of the product
+    </p>
+    <textarea name="review">
+        Review...
+    </textarea>
+
+</form>
+<!--This is where the user uploads an image of their item -->
+<form actio="test" method="post">
+    <p>Upload an image of your product</p>
+    <input type="file" name="productPicture"/> <br/>
+    <input type="image" src="../imagies/upload.jpeg" value="Upload"/>
+</form>
+</body>
+</html>
