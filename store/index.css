@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nameOfProduct {
+    color: #F9B872;
+    font-family: Chuck, inherit, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+ul {
+    list-style-type: none
+}
